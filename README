@@ -1,0 +1,8 @@
+rosalindProgramming
+
+This folder holds scripts that were used to complete problems from the
+website www.rosalind.info, which is filled with bioinformatics algorithms.
+
+The scripts are written in Perl. Each script takes in input as a text file,
+which it then parses through in order to compute an output to solve the
+problem.
