@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # Program 'conditionAndLoops'
-# Given: Two positive integers a dn b (a<b<10000)
+# Given: Two positive integers a and b (a<b<10000)
 # Return: The summ of all odd integers from a through b, inclusive
 
 use strict;
