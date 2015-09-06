@@ -5,8 +5,7 @@ This folder holds scripts that were used to complete problems from this website
 their programming skills in implementing bioinformatic algorithms to solve
 problems. 
 
-The scripts are written in Perl, Python, and any other language that interests
-me. Each scripts takes in input as a text file, which it then parses through in
+Each scripts takes in input as a text file, which it then parses through in
 order to compute an output to solve the problem.
 
 All scripts are written by Eric Leung.
@@ -18,6 +17,13 @@ All scripts are written by Eric Leung.
 - Bioinformatics Armory
 - Bioinformatics Textbook Track
 - Algorithmic Heights
+
+## Programming Languages
+
+- [Python (2.7)](https://www.python.org/)
+- [Perl](https://www.perl.org/)
+- [Scala](http://www.scala-lang.org/)
+- [C](https://en.wikipedia.org/wiki/C_(programming_language))
 
 ## License
 
