@@ -14,5 +14,5 @@ problem solving.
 | INI5 | Working with Files                     | 2013 Jan 30 |
 | INI6 | Dictionaries                           | 2014 Oct 4  |
 
-[INI1]: /INI1_Installing_Python
-[INI2]: /INI2_Variables_and_Some_Arithmetic
+[INI1]: INI1_Installing_Python/
+[INI2]: INI2_Variables_and_Some_Arithmetic/
