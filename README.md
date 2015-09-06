@@ -18,3 +18,7 @@ All scripts are written by Eric Leung.
 - Bioinformatics Armory
 - Bioinformatics Textbook Track
 - Algorithmic Heights
+
+## License
+
+[MIT License](LICENSE)
