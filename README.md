@@ -18,7 +18,7 @@ All scripts are written by Eric Leung.
 - Bioinformatics Textbook Track
 - Algorithmic Heights
 
-## Programming Languages
+## Programming Languages Used
 
 - [Python (2.7)](https://www.python.org/)
 - [Perl](https://www.perl.org/)
