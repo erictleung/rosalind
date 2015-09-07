@@ -14,9 +14,9 @@ All scripts are written by Eric Leung.
 
 - [Python Village](python-village/)
 - [Bioinformatics Stronghold](bioinformatics-stronghold/)
-- Bioinformatics Armory
-- Bioinformatics Textbook Track
-- Algorithmic Heights
+- [Bioinformatics Armory](bioinformatics-armory/)
+- [Bioinformatics Textbook Track](textbook-track/)
+- [Algorithmic Heights](algorithmic-heights/)
 
 ## Programming Languages Used
 
