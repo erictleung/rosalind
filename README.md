@@ -21,7 +21,7 @@ All scripts are written by Eric Leung.
 ## Programming Languages Used
 
 - [Python (2.7)](https://www.python.org/)
-- [Perl](https://www.perl.org/)
+- [Perl (5.16)](https://www.perl.org/)
 - [Scala](http://www.scala-lang.org/)
 - [C](https://en.wikipedia.org/wiki/C_(programming_language))
 
