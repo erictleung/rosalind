@@ -10,9 +10,13 @@ use warnings;
 
 open( IN1, $ARGV[0] ) || die "input problem";
 
+my @array = split " ", <IN1>;
 our $total; # Define the square of the hypotenuse
-while( <IN1> ) {
+
+foreach ( @array ){
     $total += $_ ** 2; # Add sqaure of each leg
 }
 
-print "$total\n";
+open( MYFILE, '>out.txt' );
+print MYFILE $total, "\n";
+close( MYFILE );
