@@ -3,8 +3,10 @@
 # dictionary.py
 # Given: A string s of length at most 10,000 letters
 # Return: How many times any word occurred in string. Each letter (upper or
-# lower) in word matters. Lines in output can be in any order
+#     lower) in word matters. Lines in output can be in any order
 # Usage: python dictionary.py FILE
+# Date: 2015 Sept 23
+# Version: 2.7.10
 
 # import packages
 import sys
@@ -13,10 +15,7 @@ import sys
 file = sys.argv[1]
 
 with open(file, "r") as fh:
-    # create list to put lines in
-    lines = []
-
-    # create dictionary
+    lines = [] # create list to put lines in
     dict = {}
 
     # iterate through lines in file and put them into lines list
@@ -34,4 +33,5 @@ with open(file, "r") as fh:
 
     # print out items in dictionary
     for key, value in dict.items():
-        print key + " " + str(value)
+        with open("out.txt", "a") as out:
+            out.write(key + " " + str(value) + "\n")
