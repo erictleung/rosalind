@@ -2,9 +2,10 @@
 
 # RNA - Transcribing DNA into RNA
 # ID: RNA
-# Python: 2.7.9
 # Given: A DNA string t having length at most 1000 nt.
 # Return: The transcribed RNA string of t.
+# Date: 2015 Oct 14
+# Python: 2.7.8
 
 # import packages
 import sys
@@ -22,4 +23,7 @@ with open(file, "r") as fh:
         lines.append(line.rstrip())
 
 expr = re.compile('T')
-print expr.sub('U', lines[0])
+
+# write out answer to file
+with open("out.txt", "w") as out:
+    out.write(expr.sub('U', lines[0]))
