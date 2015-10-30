@@ -15,21 +15,21 @@ import sys
 file = sys.argv[1]
 
 with open(file, "r") as fh:
-    lines = [] # create list to put lines in
+    lines = []  # create list to put lines in
     dict = {}
 
     # iterate through lines in file and put them into lines list
     for line in fh:
-        lines.append(line.rstrip()) # add to line and remove new line char
-    
+        lines.append(line.rstrip())  # add to line and remove new line char
+
     # split elements in list into words
-    for ln in lines: # iterate over lines in file
-        words = ln.split(" ") # split line into words
-        for word in words: # iterate through words in line
-            if dict.get(word) == None: # if the word isn't in dict already
-                dict[word] = 1 # set first occurance of word to one
+    for ln in lines:  # iterate over lines in file
+        words = ln.split(" ")  # split line into words
+        for word in words:  # iterate through words in line
+            if dict.get(word) is None:  # if the word isn't in dict already
+                dict[word] = 1  # set first occurance of word to one
             else:
-                dict[word] += 1 # add one to occurance
+                dict[word] += 1  # add one to occurance
 
     # print out items in dictionary
     for key, value in dict.items():
