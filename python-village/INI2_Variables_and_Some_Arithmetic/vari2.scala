@@ -6,6 +6,7 @@
 // Version: 2.11.7
 
 import io.Source
+import java.io.PrintWriter
 
 // read data in as array
 val source = Source.fromFile("rosalind_ini2.txt")
@@ -17,4 +18,6 @@ val hypo = (a: Int, b: Int) => math.pow(a, 2) + math.pow(b, 2)
 val total = hypo(lines(0).toInt, lines(1).toInt).toInt
 
 // write answer to output file
-scala.tools.nsc.io.File("out.txt").writeAll(total.toString)
+val out = new PrintWriter("out.txt")
+out.println(total)
+out.close()
