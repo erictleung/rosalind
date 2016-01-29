@@ -2,13 +2,11 @@
 
 This folder holds scripts that were used to complete problems from this website
 (www.rosalind.info). The website gives programmers/scientists a way to test
-their programming skills in implementing bioinformatic algorithms to solve
-problems. 
+their programming skills in implementing bioinformatic algorithms that solve
+biological problems.
 
 Each scripts takes in input as a text file, which it then parses through in
 order to compute an output to solve the problem.
-
-All scripts are written by Eric Leung.
 
 ## Overview
 
@@ -17,6 +15,12 @@ All scripts are written by Eric Leung.
 - [Bioinformatics Armory](bioinformatics-armory/)
 - [Bioinformatics Textbook Track](textbook-track/)
 - [Algorithmic Heights](algorithmic-heights/)
+
+## Example Use
+
+```Shell
+name.script file.name
+```
 
 ## Programming Languages Used
 
