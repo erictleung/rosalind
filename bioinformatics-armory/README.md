@@ -5,11 +5,11 @@ Stronghold you implement algorithms on your own, in the Armory you solve similar
 problems by using existing tools.
 
 ## Progress
-  
+
 | ID   | Title                                             | Date Solved |
 | ---- | ------------------------------------------------- | ----------- |
 | INI  | [Introduction to the Bioinformatics Armory][INI]  | 2013 Feb 04 |
-| DBPR | Introduction to Protein Databases                 |             |
+| DBPR | [Introduction to Protein Databases][DBPR]         | 2016 Jan 30 |
 | FRMT | Data Formats                                      |             |
 | MEME | New Motif Discovery                               |             |
 | NEED | Pairwise Global Alignment                         |             |
@@ -24,4 +24,5 @@ problems by using existing tools.
 | ORFR | Finding Genes with ORFs                           |             |
 | BFIL | Base Filtration by Quality                        |             |
 
-[INI]: INI1_Introduction_to_the_Bioinformatics_Armory/
+[INI]: INI_Introduction_to_the_Bioinformatics_Armory/
+[DBPR]: DBPR_Introduction_to_Protein_Databases/
