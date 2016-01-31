@@ -1,4 +1,6 @@
-#!/bin/python
+#!/usr/bin/env python
+
+# Python 2.7.11
 
 # import packages
 import sys
@@ -16,7 +18,13 @@ with open(data, "r") as fh:
     pageSplit = page.split("\n")
     goTerms = [line for line in pageSplit if "GO; GO:" in line]
 
+    processes = []
     for term in goTerms:
         if re.search("; P:", term):
             temp = term.split(";")[2].split(":")[1]
-            print temp, "\n"
+            processes.append(temp)
+
+# write output
+with open("out.txt", "a") as out:
+    for term in processes:
+        out.write(term + "\n")
