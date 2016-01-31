@@ -4,3 +4,15 @@
 
 **Return**: The integer corresponding to the square of the hypotenuse of the
 right triangle whose legs have lengths *a* and *b*.
+
+# Sample Dataset
+
+```
+3 5
+```
+
+# Sample output
+
+```
+34
+```
