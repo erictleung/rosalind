@@ -11,7 +11,7 @@ others.
 | ---- | --------------------------------------- | ----------- |
 | DNA  | [Counting DNA Nucleotides][DNA]         | 2015 Oct 12 |
 | RNA  | [Transcribing DNA into RNA][RNA]        | 2015 Oct 14 |
-| REVC | [Complementing a Strand of DNA][RECV]   | 2015 Oct 16 |
+| REVC | [Complementing a Strand of DNA][REVC]   | 2015 Oct 16 |
 | FIB  | [Rabbits and Recurrence Relations][FIB] | 2015 Dec 23 |
 
 [DNA]: DNA_Counting_DNA_Nucleotides/
