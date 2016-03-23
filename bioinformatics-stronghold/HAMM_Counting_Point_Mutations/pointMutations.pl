@@ -11,6 +11,8 @@ open ( IN1, $ARGV[0] ) || die "input error\n";
 my @word1 = split "", <IN1>;
 my @word2 = split "", <IN1>;
 
+close IN1;
+
 my $len = scalar( @word1 );
 my $first;
 my $second;
@@ -24,5 +26,6 @@ while ( @word1 ) {
     }
 }
 
-print "$count\n";
-close IN1;
+open ( MYFILE, '> out.txt');
+print MYFILE "$count\n";
+close ( MYFILE );
