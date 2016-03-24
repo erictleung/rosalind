@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 use strict;
 use warnings;
@@ -24,4 +24,6 @@ $percent += ($k * (($k-1)+$m+$n)) / ($total*($total-1));
 $percent += ($m * ($k+(($m-1)*0.75)+($n*0.5))) / ($total*($total-1));
 $percent += ($n * ($k+($m*0.5))) / ($total*($total-1));
 
-print "$percent\n";
+open( MYFILE, '> out.txt');
+print MYFILE "$percent\n";
+close MYFILE;
