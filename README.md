@@ -8,6 +8,14 @@ biological problems.
 Each scripts takes in input as a text file, which it then parses through in
 order to compute an output to solve the problem.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Example Use](#example-use)
+- [Programming Languages Used](#programming-languages-used)
+- [License](#license)
+
+
 ## Overview
 
 - [Python Village](python-village/)
@@ -16,11 +24,13 @@ order to compute an output to solve the problem.
 - [Bioinformatics Textbook Track](textbook-track/)
 - [Algorithmic Heights](algorithmic-heights/)
 
+
 ## Example Use
 
 ```Shell
 name.script file.name
 ```
+
 
 ## Programming Languages Used
 
@@ -28,6 +38,7 @@ name.script file.name
 - [Perl (5.16)](https://www.perl.org/)
 - [Scala](http://www.scala-lang.org/)
 - [C](https://en.wikipedia.org/wiki/C_(programming_language))
+
 
 ## License
 
