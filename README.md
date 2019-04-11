@@ -34,7 +34,7 @@ name.script file.name
 
 ## Programming Languages Used
 
-- [Python (2.7)](https://www.python.org/)
+- [Python3](https://www.python.org/)
 - [Perl (5.16)](https://www.perl.org/)
 - [Scala](http://www.scala-lang.org/)
 - [C](https://en.wikipedia.org/wiki/C_(programming_language))
